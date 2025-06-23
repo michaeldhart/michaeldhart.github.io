@@ -3,15 +3,21 @@
     <head>
         <title>Welcome to Coding Club!</title>
         <style>
-            aside {
+            /* # selects a node with an id */
+            #logo {
                 color: red;
+            }
+
+            /* . selects a node with a class */
+            .footer {
+                background-color: blue;
             }
         </style>
     </head>
     <body>
         <header>
             <div id="logo"></div>
-            <nav>
+            <nav class="my-list">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -23,7 +29,7 @@
             <aside>Sidebar content goes here</aside>
             <article>Main page content goes here</article>
         </main>
-        <footer>
+        <footer class="footer">
             Footer content goes here.
         </footer>
     </body>
