@@ -2,9 +2,13 @@
 <html>
     <head>
         <title>Welcome to Coding Club!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <style>
             div {
                 color: red;
+                
             }
 
             #tim {
@@ -14,10 +18,20 @@
             .purple {
                 color: purple;
             }
+
+
+            .my-font {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+            }
         </style>
     </head>
     <body>
-        <div>I should be red!</div>
+        <div class="my-font">I should be red!</div>
         <div id="tim">I should be blue!</div>
         <div class="purple">I should be purple!</div>
     </body>
