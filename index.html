@@ -8,11 +8,11 @@
             var myVar = "1";
             var myVar2 = "2";
 
-            if (Date.now() % 2 === 0) {
-                console.log(myVar);
-            } else {
-                console.log(myVar2);
+            var myFunction = () => {
+                return myVar + myVar2;
             }
+
+            console.log(myFunction());
         </script>
     </head>
     <body>
