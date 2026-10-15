@@ -23,6 +23,13 @@ social:
     icon: instagram
     url: https://www.instagram.com/_michaeldhart
 
+# GoatCounter: the site code only, not the full URL. _layouts/default.html builds
+# https://<code>.goatcounter.com/count from it. Cookieless and with no personal
+# data, so it needs no consent banner. It only loads in the production build
+# (the Pages workflow), so local previews never record a hit. What it collects is
+# disclosed on /about/, which is also gated on this key.
+goatcounter_code: michaeldhart
+
 category_names:
   politics: Politics
   belvidere: Belvidere
