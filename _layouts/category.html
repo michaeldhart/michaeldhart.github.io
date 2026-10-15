@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign label = site.category_names[page.category] | default: page.category %}
+<section class="card">
+  <h1 class="card-title">{{ label }}</h1>
+  {% assign cat_posts = site.posts | where_exp: "p", "p.categories contains page.category" %}
+  {% if cat_posts.size > 0 %}
+    {% include post-list.html posts=cat_posts %}
+  {% else %}
+    <p class="muted">Nothing here yet.</p>
+  {% endif %}
+</section>
+<p class="back"><a href="{{ '/updates/' | relative_url }}">&larr; All updates</a></p>

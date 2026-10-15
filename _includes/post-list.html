@@ -1,0 +1,13 @@
+<ul class="post-list">
+  {% for post in include.posts %}
+    <li>
+      <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% for c in post.categories %}
+          <a class="tag" href="{{ '/categories/' | append: c | append: '/' | relative_url }}">{{ site.category_names[c] | default: c }}</a>
+        {% endfor %}
+      </span>
+    </li>
+  {% endfor %}
+</ul>

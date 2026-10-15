@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="card post">
+  <h1 class="post-heading">{{ page.title }}</h1>
+  <p class="meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    {% for c in page.categories %}
+      <a class="tag" href="{{ '/categories/' | append: c | append: '/' | relative_url }}">{{ site.category_names[c] | default: c }}</a>
+    {% endfor %}
+  </p>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>
+<p class="back"><a href="{{ '/updates/' | relative_url }}">&larr; All updates</a></p>

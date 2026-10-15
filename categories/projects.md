@@ -1,0 +1,6 @@
+---
+layout: category
+category: projects
+permalink: /categories/projects/
+title: projects
+---

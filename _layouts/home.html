@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section class="card intro">
+  {{ content }}
+</section>
+
+<section class="card">
+  <h2 class="card-title">Recent</h2>
+  {% include post-list.html posts=site.posts limit=8 %}
+  <p class="more"><a href="{{ '/updates/' | relative_url }}">All updates &rarr;</a></p>
+</section>

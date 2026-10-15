@@ -1,0 +1,41 @@
+title: Michael D. Hart
+description: Software engineer, dad, arts supporter, and local troublemaker in Belvidere, Illinois.
+url: https://michaeldhart.com
+lang: en
+
+# Keeps existing Squarespace URLs (/updates/<slug>) working.
+permalink: /updates/:slug/
+
+author: Michael D. Hart
+photo: /assets/img/michael.jpg
+
+social:
+  - name: Facebook
+    icon: facebook
+    url: https://www.facebook.com/michaeldhart
+  - name: Bluesky
+    icon: bluesky
+    url: https://bsky.app/profile/michaeldhart.bsky.social
+  - name: GitHub
+    icon: github
+    url: https://github.com/michaeldhart
+  - name: Instagram
+    icon: instagram
+    url: https://www.instagram.com/_michaeldhart
+
+category_names:
+  politics: Politics
+  belvidere: Belvidere
+  boone-county: Boone County
+  coding: Coding
+  projects: Projects
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github

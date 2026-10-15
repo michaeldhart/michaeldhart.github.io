@@ -1,0 +1,27 @@
+{% assign is_home = false %}
+{% if page.url == '/' %}{% assign is_home = true %}{% endif %}
+<header class="masthead">
+  <div class="identity">
+    <a class="avatar" href="{{ '/' | relative_url }}" aria-label="Home">
+      <img src="{{ site.photo | relative_url }}" alt="Michael D. Hart" width="72" height="72">
+    </a>
+    <div>
+      {% if is_home %}<h1 class="name">{{ site.title }}</h1>{% else %}<p class="name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>{% endif %}
+      <p class="tagline">Belvidere, Illinois</p>
+    </div>
+  </div>
+
+  <nav class="social" aria-label="Social links">
+    {% for s in site.social %}
+      <a class="icon-btn" href="{{ s.url }}" rel="me noopener" aria-label="{{ s.name }}" title="{{ s.name }}">
+        {% include icon.html name=s.icon %}
+      </a>
+    {% endfor %}
+  </nav>
+
+  <nav class="pages" aria-label="Site">
+    <a href="{{ '/' | relative_url }}"{% if is_home %} aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/updates/' | relative_url }}"{% if page.url == '/updates/' %} aria-current="page"{% endif %}>Updates</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+  </nav>
+</header>

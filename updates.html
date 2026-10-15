@@ -1,0 +1,18 @@
+---
+layout: default
+title: Updates
+permalink: /updates/
+---
+<section class="card">
+  <h1 class="post-heading">Updates</h1>
+  <nav class="cat-nav" aria-label="Categories">
+    {% for c in site.category_names %}
+      <a class="tag" href="{{ '/categories/' | append: c[0] | append: '/' | relative_url }}">{{ c[1] }}</a>
+    {% endfor %}
+  </nav>
+  {% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for y in by_year %}
+    <h2 class="year">{{ y.name }}</h2>
+    {% include post-list.html posts=y.items %}
+  {% endfor %}
+</section>
