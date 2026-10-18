@@ -23,6 +23,7 @@
     <a href="{{ '/' | relative_url }}"{% if is_home %} aria-current="page"{% endif %}>Home</a>
     <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
     <a href="{{ '/software/' | relative_url }}"{% if page.url == '/software/' %} aria-current="page"{% endif %}>Software</a>
+    <a href="{{ '/podcast/' | relative_url }}"{% if page.url == '/podcast/' %} aria-current="page"{% endif %}>Podcast</a>
     <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
   </nav>
 </header>
