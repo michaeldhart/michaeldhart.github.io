@@ -3,13 +3,13 @@ layout: page
 title: Podcast
 permalink: /podcast/
 ---
+### Dang Man - Progressive Discussions on Modern Masculinity
+
 <nav class="social listen" aria-label="Listen to Dang Man">
   <a class="icon-btn" href="https://open.spotify.com/show/0YxYdZ8HMDHaMSMuBSEfxq?si=c92e6363d75c46a1" target="_blank" rel="noopener noreferrer" aria-label="Spotify" title="Spotify">{% include icon.html name='spotify' %}</a>
   <a class="icon-btn" href="https://podcasts.apple.com/us/podcast/dang-man-regular-men-exploring-modern-masculinity/id1815125920" target="_blank" rel="noopener noreferrer" aria-label="Apple Podcasts" title="Apple Podcasts">{% include icon.html name='applepodcasts' %}</a>
   <a class="icon-btn" href="https://www.youtube.com/@DangManPod" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">{% include icon.html name='youtube' %}</a>
 </nav>
-
-### Dang Man - Progressive Discussions on Modern Masculinity
 
 In 2025 my brother Tim approached me with the idea to do a podcast on modern masculinity. To be honest, I wasn't eager to go on record discussing "masculinity" in the age of the Manosphere - when even that term - "masculinity" - is most naturally prefixed with the adjective "toxic." 
 
