@@ -67,6 +67,7 @@ a:hover { color: var(--accent); }
 .tagline { margin: 0; color: var(--muted); font-size: 17px; }
 
 .social { display: flex; gap: 8px; margin-top: 20px; }
+.social.listen { margin: 0 0 4px; }
 
 .icon-btn {
   display: inline-flex;
