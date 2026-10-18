@@ -3,6 +3,7 @@ title: "It’s Simple… Deportation"
 date: 2025-01-31 15:33:37 -0600
 categories: [politics]
 layout: post
+redirect_from: /updates/its-simple-deportation/
 ---
 
 Have you ever been working on a problem - one that really is stumping you? Maybe it’s something you’re really good at - something you do professionally - and you’re sharing your problem with someone and they say “Why don’t you just…?” Most of the time what comes next is something you’ve already tried and ruled out. A helpful phrase I picked up a while back goes “If your suggestion starts with ‘Why don’t you just…’ - then you probably don’t understand the problem.” Of course this isn’t always true - maybe you missed something that this other person sees - but usually you’ve already considered the problem more deeply than others. You know the problem requires a more complex solution.

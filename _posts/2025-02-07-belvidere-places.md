@@ -3,6 +3,7 @@ title: "Belvidere Places!"
 date: 2025-02-07 09:34:58 -0600
 categories: [belvidere]
 layout: post
+redirect_from: /updates/belvidere-places/
 ---
 
 Folks are celebrating Stellantis’s most recent announcement to reopen the Belvidere Assembly - and I’m glad to hear it too. Regardless of the type of vehicle produced at the plant, having those union jobs back in Belvidere is a great thing. However, as someone who celebrated a similar win back in November 2023 can attest - it’s not over till the cars roll off the line.

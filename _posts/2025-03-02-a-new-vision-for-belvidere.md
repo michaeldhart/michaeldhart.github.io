@@ -3,6 +3,7 @@ title: "A New Vision For Belvidere"
 date: 2025-03-02 13:13:25 -0600
 categories: [belvidere]
 layout: post
+redirect_from: /updates/a-new-vision-for-belvidere/
 ---
 
 A while back, scrolling through an online discussion of “what Belvidere needs,” amongst the calls for a pool and fancy restaurants was the comment: “A vision.” I agree. If we keep focusing on the problems immediately before us without an idea of the goal we’re working towards, we’ll never get anywhere. I don’t think it’s too much to ask our local leaders to share their vision for Belvidere, so I wrote mine down.

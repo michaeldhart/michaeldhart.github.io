@@ -21,7 +21,7 @@
 
   <nav class="pages" aria-label="Site">
     <a href="{{ '/' | relative_url }}"{% if is_home %} aria-current="page"{% endif %}>Home</a>
-    <a href="{{ '/updates/' | relative_url }}"{% if page.url == '/updates/' %} aria-current="page"{% endif %}>Updates</a>
+    <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
     <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
   </nav>
 </header>

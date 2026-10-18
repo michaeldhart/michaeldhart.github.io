@@ -3,6 +3,7 @@ title: "Up And To The Right?"
 date: 2025-02-20 13:20:42 -0600
 categories: [politics]
 layout: post
+redirect_from: /updates/mlj62vdciypp9wv53qv3qfqfo3713m/
 ---
 
 I think it’s plain that our American idea of infinite growth and progress is hitting its upper limits. Late stage capitalism with extreme wealth disparity. At a crucial tipping point environmentally and running the other way. Our already ineffective governments are being cannibalized. There’s no more graph up and to the right. 📈

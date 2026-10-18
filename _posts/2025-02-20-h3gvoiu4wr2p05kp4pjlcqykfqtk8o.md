@@ -3,6 +3,7 @@ title: "Playing Out: Open Streets for Belvidere"
 date: 2025-02-20 13:23:22 -0600
 categories: [belvidere]
 layout: post
+redirect_from: /updates/h3gvoiu4wr2p05kp4pjlcqykfqtk8o/
 ---
 
 If you're a 21st century parent, you know it's less safe for kids to just play outside than it was for us when we were kids. In 2009 parents in Bristol, England decided that they didn't have to just accept this as a casualty of the modern world.

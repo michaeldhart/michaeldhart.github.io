@@ -3,8 +3,8 @@ description: Software engineer, dad, arts supporter, and local troublemaker in B
 url: https://michaeldhart.com
 lang: en
 
-# Keeps existing Squarespace URLs (/updates/<slug>) working.
-permalink: /updates/:slug/
+# Old Squarespace URLs (/updates/<slug>) redirect here via jekyll-redirect-from.
+permalink: /blog/:slug/
 
 author: Michael D. Hart
 photo: /assets/img/michael.jpg
@@ -39,6 +39,7 @@ category_names:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile

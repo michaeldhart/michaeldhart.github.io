@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Updates
-permalink: /updates/
+title: Blog
+permalink: /blog/
+redirect_from: /updates/
 ---
 <section class="card">
-  <h1 class="post-heading">Updates</h1>
+  <h1 class="post-heading">Blog</h1>
   <nav class="cat-nav" aria-label="Categories">
     {% for c in site.category_names %}
       <a class="tag" href="{{ '/categories/' | append: c[0] | append: '/' | relative_url }}">{{ c[1] }}</a>
