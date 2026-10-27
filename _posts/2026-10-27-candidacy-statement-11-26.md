@@ -1,6 +1,6 @@
 ---
 title: "Candidacy Statement - 11/26"
-date: 2026-10-27 12:00:00 -0500
+date: 2026-10-27 09:33:55 -0500
 categories: [belvidere, politics]
 layout: post
 ---
